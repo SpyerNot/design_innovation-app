@@ -18,12 +18,86 @@ except ZeroDivisionError:
 else:
   if bmi >= 40.0:
     st.write("You are obese")
-    popover = st.popover("exercise plans")
-    plan1 = popover.checkbox("Show PLan 1")
-    if plan1 == True:
-      st.write(rd.choice(exercise))
+    if gender == 'Female' and age >= 2005:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif gender == 'Female' and age >= 1975:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif gender == 'Female' and age >= 1944:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif gender == 'Male' and age >= 2005:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif gender == 'Male' and age >= 1975:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif gender == 'Male' and age >= 1944:
+      popover = st.popover("exercise plans")
+      plan1 = popover.checkbox("Show Plan 1")
+      plan2 = popover.checkbox("Show Plan 2")
+      plan3 = popover.checkbox("Show Plan 3")
+      if plan1 == True:
+        st.write(rd.choice(exercise))
+      elif plan2 == True:
+        st.write(rd.choice(exercise))
+      elif plan3 == True:
+        st.write(rd.choice(exercise))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
     else:
-      st.write("Ok,I seee that you do not want to exercise")
+      True
   elif bmi >= 25.0:
     st.write("You are overweight")
     st.write(rd.choice(exercise))
