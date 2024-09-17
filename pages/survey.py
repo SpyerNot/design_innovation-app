@@ -18,7 +18,12 @@ except ZeroDivisionError:
 else:
   if bmi >= 40.0:
     st.write("You are obese")
-    st.write(rd.choice(exercise))
+    popover = st.popover("exercise plans")
+    plan1 = popover.checkbox("Show PLan 1")
+    if plan1 == True:
+      st.write(rd.choice(exercise))
+    else:
+      st.write("Ok,I seee that you do not want to exercise")
   elif bmi >= 25.0:
     st.write("You are overweight")
     st.write(rd.choice(exercise))
