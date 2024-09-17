@@ -1,4 +1,6 @@
 import streamlit as st
+import random as rd
+exercise = ['push-up','situp','plank','jog','running']
 st.set_page_config(page_title="Welcome")
 st.title("Our Health App!!")
 with st.form(key='know_more_form'):
@@ -16,9 +18,13 @@ except ZeroDivisionError:
 else:
   if bmi >= 40.0:
     st.write("You are obese")
+    st.write(rd.choice(exercise))
   elif bmi >= 25.0:
     st.write("You are overweight")
+    st.write(rd.choice(exercise))
   elif bmi >=18.5:
     st.write("You are normal")
+    st.write(rd.choice(exercise))
   else:
     st.write("You are underweight")
+    st.write(rd.choice(exercise))
