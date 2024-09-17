@@ -4,7 +4,7 @@ st.title("Our Health App!!")
 with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
   gender = st.selectbox("What is your gender?",["Female","Male"])
-  age = st.text_input("Which year are you born?")
+  age = st.slider("Which year are you born?",1944,2011)
   height = st.number_input("What is your height? (in meteres)",0.00,)
   weight = st.number_input("What is your weight? (in kilograms)",0.00,)
   st.form_submit_button("Submit")
