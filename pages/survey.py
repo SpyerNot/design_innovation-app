@@ -25,9 +25,9 @@ else:
       plan3 = popover.checkbox("Show Plan 3")
       if plan1 == True:
         st.write(rd.choice(exercise))
-      if plan2 == True:
+      elif plan2 == True:
         st.write(rd.choice(exercise))
-      if plan3 == True:
+      elif plan3 == True:
         st.write(rd.choice(exercise))
       else:
         st.write("Ok,I seee that you do not want to exercise")
