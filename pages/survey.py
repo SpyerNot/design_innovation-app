@@ -2,7 +2,8 @@ import streamlit as st
 import random as rd
 exercise = ['push-up','situp','plank','jog','running']
 st.set_page_config(page_title="Welcome")
-st.title("Our Health App!!")
+st.title("Your Specialized Exercise Plans Are Here!!")
+st.subheader("Come and fill up this form to know what exercise plan works for you.")
 with st.form(key='know_more_form'):
   st.header("This is a form to get to know more about you!")
   gender = st.selectbox("What is your gender?",["Female","Male"])
