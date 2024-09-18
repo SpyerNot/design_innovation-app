@@ -24,7 +24,7 @@ else:
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plans == 'Plan 1':
       st.write(rd.choice(exercise_obese_teens))
-    elif  plans == 'Plan 2':
+    elif plans == 'Plan 2':
       st.write(rd.choice(exercise_obese_teens))
     elif plans == 'Plan 3':
       st.write(rd.choice(exercise_obese_teens))
