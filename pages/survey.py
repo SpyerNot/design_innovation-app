@@ -18,7 +18,7 @@ except ZeroDivisionError:
 else:
   if bmi >= 40.0:
     st.write("You are obese")
-    plans- = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plan1 == True:
       st.write(rd.choice(exercise))
     elif plan2 == True:
