@@ -12,4 +12,4 @@ with col2:
 
 with col3:
     st.header("Wellness Programme")
-    st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.myheart.org.sg%2F&psig=AOvVaw1uJCMG4EpuLKw8NVwQJu6C&ust=1726708049558000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOis_e2my4gDFQAAAAAdAAAAABAE")
+    st.image("https://tickikids.ams3.cdn.digitaloceanspaces.com/z2.cache/gallery/organizations/2208/image_5aa5230acca5b9.93285471.jpg")
