@@ -75,18 +75,49 @@ else:
       elif plans == 'Plan 3':
         st.write(rd.choice(exercise_overweight_adult))
       else:
-        st.write("Ok,I seee that you do not want to exercise")    
+        st.write("Ok,I seee that you do not want to exercise")
+    else:      
+      if plans == 'Plan 1':
+        st.write(rd.choice(exercise_overweight_adult))
+      elif plans == 'Plan 2':
+        st.write(rd.choice(exercise_overweight_adult))
+      elif plans == 'Plan 3':
+        st.write(rd.choice(exercise_overweight_adult))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+      
   elif bmi >=18.5:
     st.write("You are normal")
-    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
-    if plans == 'Plan 1':
-      st.write(rd.choice(exercise_normal_teens))
-    elif plans == 'Plan 2':
-      st.write(rd.choice(exercise_normal_teens))
-    elif plans == 'Plan 3':
-      st.write(rd.choice(exercise_normal_teens))
-    else:
-      st.write("Ok,I seee that you do not want to exercise")
+    if age >= 2011:
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write(rd.choice(exercise_normal_teens))
+      elif plans == 'Plan 2':
+        st.write(rd.choice(exercise_normal_teens))
+      elif plans == 'Plan 3':
+        st.write(rd.choice(exercise_normal_teens))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    elif age >= 2004:      
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write(rd.choice(exercise_normal_adult))
+      elif plans == 'Plan 2':
+        st.write(rd.choice(exercise_normal_adult))
+      elif plans == 'Plan 3':
+        st.write(rd.choice(exercise_normal_adult))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    else:      
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write(rd.choice(exercise_normal_teens))
+      elif plans == 'Plan 2':
+        st.write(rd.choice(exercise_normal_teens))
+      elif plans == 'Plan 3':
+        st.write(rd.choice(exercise_normal_teens))
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
   else:
     st.write("You are underweight")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
