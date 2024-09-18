@@ -1,6 +1,8 @@
 import streamlit as st
 import random as rd
-exercise = ['push-up','situp','plank','jog','running']
+exercise_obese_teens = ['walk for 25 mins','cycle for 25 mins','swim for 25 mins','Squats (3 sets of 10-12)','Wall Push-ups (3 sets of 10-12)','Lunges (3 sets of 10 each leg)','Planks (Hold for 15-30 seconds, 3 times)']
+exercise_overweight_teens = ['walk for 25 mins','run for 2 mins then walk for 3 mins','cycle for 25 mins','swim for 25 mins','Squats: 3 sets of 10-15 reps.','Push-Ups (modified if necessary): 3 sets of 8-12 reps','Lunges: 3 sets of 10-12 reps on each leg','Plank: Hold for 30 seconds']
+exercise_normal_teens = ['Squats (12 reps) x 3','Push-ups (10 reps) x 3','Lunges (10 reps per leg) x 3','Plank (30 seconds) x 3','Bicycle crunches (15 reps per side) x 3','Jump squats (10 reps) x 3','Russian twists (3 sets of 15 reps per side)','Leg raises (3 sets of 12 reps)','Mountain climbers (3 sets of 30 seconds)','Side plank (hold for 30 seconds per side, 3 sets)']
 st.set_page_config(page_title="Welcome")
 st.title("Your Specialized Exercise Plans Are Here!!")
 st.subheader("Come and fill up this form to know what exercise plan works for you.")
@@ -21,33 +23,33 @@ else:
     st.write("You are obese")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plans == 'Plan 1':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_obese_teens))
     elif  plans == 'Plan 2':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_obese_teens))
     elif plans == 'Plan 3':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_obese_teens))
     else:
       st.write("Ok,I seee that you do not want to exercise")
   elif bmi >= 25.0:
     st.write("You are overweight")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plans == 'Plan 1':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_overweight_teens))
     elif plans == 'Plan 2':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_overweight_teens))
     elif plans == 'Plan 3':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_overweight_teens))
     else:
       st.write("Ok,I seee that you do not want to exercise")
   elif bmi >=18.5:
     st.write("You are normal")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plans == 'Plan 1':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_normal_teens))
     elif plans == 'Plan 2':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_normal_teens))
     elif plans == 'Plan 3':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice(exercise_normal_teens))
     else:
       st.write("Ok,I seee that you do not want to exercise")
   else:
