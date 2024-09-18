@@ -19,11 +19,11 @@ else:
   if bmi >= 40.0:
     st.write("You are obese")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
-    if plan1 == True:
+    if plans == 'Plan 1':
       st.write(rd.choice(exercise))
-    elif plan2 == True:
+    elif  plans == 'Plan 2':
       st.write(rd.choice(exercise))
-    elif plan3 == True:
+    elif plans == 'Plan 3':
       st.write(rd.choice(exercise))
     else:
       st.write("Ok,I seee that you do not want to exercise")
