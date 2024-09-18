@@ -1,6 +1,6 @@
 import streamlit as st
 st.title("REWARDS!!")
-ol1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.header("Food voucher")
