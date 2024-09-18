@@ -29,43 +29,34 @@ else:
       st.write("Ok,I seee that you do not want to exercise")
   elif bmi >= 25.0:
     st.write("You are overweight")
-    popover = st.popover("exercise plans")
-    plan1 = popover.checkbox("Show Plan 1")
-    plan2 = popover.checkbox("Show Plan 2")
-    plan3 = popover.checkbox("Show Plan 3")
-    if plan1 == True:
+    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+    if plans == 'Plan 1':
       st.write(rd.choice(exercise))
-    elif plan2 == True:
+    elif plans == 'Plan 2':
       st.write(rd.choice(exercise))
-    elif plan3 == True:
+    elif plans == 'Plan 3':
       st.write(rd.choice(exercise))
     else:
       st.write("Ok,I seee that you do not want to exercise")
   elif bmi >=18.5:
     st.write("You are normal")
-    popover = st.popover("exercise plans")
-    plan1 = popover.checkbox("Show Plan 1")
-    plan2 = popover.checkbox("Show Plan 2")
-    plan3 = popover.checkbox("Show Plan 3")
-    if plan1 == True:
+    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+    if plans == 'Plan 1':
       st.write(rd.choice(exercise))
-    elif plan2 == True:
+    elif plans == 'Plan 2':
       st.write(rd.choice(exercise))
-    elif plan3 == True:
+    elif plans == 'Plan 3':
       st.write(rd.choice(exercise))
     else:
       st.write("Ok,I seee that you do not want to exercise")
   else:
     st.write("You are underweight")
-    popover = st.popover("exercise plans")
-    plan1 = popover.checkbox("Show Plan 1")
-    plan2 = popover.checkbox("Show Plan 2")
-    plan3 = popover.checkbox("Show Plan 3")
-    if plan1 == True:
+    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+    if plans == 'Plan 1':
       st.write(rd.choice(exercise))
-    elif plan2 == True:
+    elif plans == 'Plan 2':
       st.write(rd.choice(exercise))
-    elif plan3 == True:
+    elif plans == 'Plan 3':
       st.write(rd.choice(exercise))
     else:
       st.write("Ok,I seee that you do not want to exercise")
