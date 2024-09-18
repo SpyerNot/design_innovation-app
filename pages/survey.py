@@ -122,10 +122,10 @@ else:
     st.write("You are underweight")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
     if plans == 'Plan 1':
-      st.write(rd.choice(exercise))
+      st.write("start eating more man" )
     elif plans == 'Plan 2':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice("Start eating more man")
     elif plans == 'Plan 3':
-      st.write(rd.choice(exercise))
+      st.write(rd.choice("Start eating more man")
     else:
       st.write("Ok,I seee that you do not want to exercise")
