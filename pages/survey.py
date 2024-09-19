@@ -61,6 +61,180 @@ else:
     if age >= 2011:
       if plans == 'Plan 1':
         st.write(rd.choice(exercise_overweight_teens))
+        st.write("Day 1
+Breakfast (350 kcal)
+
+Scrambled eggs (3 large eggs) with spinach and mushrooms
+Whole grain toast (1 slice)
+1 small apple
+Snack (120 kcal)
+
+Greek yogurt (unsweetened, 150g) topped with mixed berries
+Lunch (450 kcal)
+
+Grilled chicken breast (120g)
+Quinoa (½ cup cooked)
+Steamed broccoli
+Snack (100 kcal)
+
+Baby carrots with hummus (2 tbsp)
+Dinner (450 kcal)
+
+Baked salmon (120g)
+Brown rice (½ cup cooked)
+Mixed green salad with olive oil dressing
+Snack (100 kcal)
+
+Cottage cheese (100g) with cucumber slices
+Total Calories: ~1570 kcal
+
+Day 2
+Breakfast (370 kcal)
+
+Oatmeal (½ cup cooked) with almond butter (1 tbsp)
+2 boiled eggs
+Snack (150 kcal)
+
+Handful of almonds (15-20 pieces)
+Lunch (450 kcal)
+
+Turkey breast (120g) on whole wheat wrap with lettuce, tomato, and mustard
+Cucumber slices
+Snack (80 kcal)
+
+1 orange
+Dinner (500 kcal)
+
+Grilled lean beef (120g)
+Steamed asparagus
+Sweet potato (1 small, baked)
+Snack (100 kcal)
+
+Low-fat string cheese
+Total Calories: ~1650 kcal
+
+Day 3
+Breakfast (400 kcal)
+
+2 boiled eggs with whole grain toast
+1 banana
+Snack (120 kcal)
+
+Low-fat Greek yogurt (unsweetened, 150g) with chia seeds
+Lunch (450 kcal)
+
+Tuna salad (in water) with lettuce, cucumber, and avocado
+Whole grain crackers (4-5 pieces)
+Snack (100 kcal)
+
+1 small pear
+Dinner (500 kcal)
+
+Stir-fried chicken with bell peppers, onions, and zucchini
+Brown rice (½ cup cooked)
+Snack (100 kcal)
+
+Sliced veggies with hummus (2 tbsp)
+Total Calories: ~1670 kcal
+
+Day 4
+Breakfast (350 kcal)
+
+Scrambled eggs (3 large eggs) with tomatoes and spinach
+1 slice of whole grain toast
+Snack (150 kcal)
+
+1 boiled egg with sliced cucumbers
+Lunch (500 kcal)
+
+Grilled chicken breast (120g)
+Quinoa (½ cup cooked)
+Mixed greens with olive oil and lemon dressing
+Snack (120 kcal)
+
+Greek yogurt (unsweetened, 150g)
+Dinner (480 kcal)
+
+Baked cod (120g)
+Steamed broccoli and carrots
+Sweet potato (1 small, baked)
+Snack (100 kcal)
+
+Cottage cheese (100g) with sliced bell peppers
+Total Calories: ~1700 kcal
+
+Day 5 (Asian-Inspired Meal)
+Breakfast (380 kcal)
+
+Hard-boiled eggs (2) with avocado slices
+Whole wheat toast
+Snack (150 kcal)
+
+Handful of almonds (15-20 pieces)
+Lunch (500 kcal)
+
+Teriyaki grilled chicken breast (120g)
+Stir-fried vegetables (bell peppers, onions, carrots)
+Brown rice (½ cup cooked)
+Snack (80 kcal)
+
+1 orange
+Dinner (450 kcal)
+
+Chicken and vegetable stir-fry (chicken breast, broccoli, mushrooms) with garlic and ginger
+Steamed jasmine rice (½ cup cooked)
+Snack (120 kcal)
+
+Greek yogurt (unsweetened, 150g)
+Total Calories: ~1680 kcal
+
+Day 6
+Breakfast (350 kcal)
+
+Scrambled eggs (3 large eggs) with spinach
+Whole grain toast (1 slice)
+Snack (150 kcal)
+
+1 boiled egg with cucumber slices
+Lunch (500 kcal)
+
+Grilled turkey breast (120g) with quinoa salad (quinoa, cucumber, tomato, olive oil)
+Snack (100 kcal)
+
+1 small apple
+Dinner (480 kcal)
+
+Baked salmon (120g) with a side of steamed broccoli
+Brown rice (½ cup cooked)
+Snack (100 kcal)
+
+Cottage cheese (100g) with bell pepper strips
+Total Calories: ~1680 kcal
+
+Day 7
+Breakfast (350 kcal)
+
+Omelet with mushrooms, onions, and spinach (3 large eggs)
+Whole grain toast (1 slice)
+Snack (150 kcal)
+
+Handful of almonds (15-20 pieces)
+Lunch (450 kcal)
+
+Chicken breast (120g) with mixed greens, cherry tomatoes, and olive oil dressing
+Quinoa (½ cup cooked)
+Snack (120 kcal)
+
+Greek yogurt (unsweetened, 150g)
+Dinner (500 kcal)
+
+Grilled lean beef (120g)
+Steamed carrots and green beans
+Sweet potato (1 small, baked)
+Snack (100 kcal)
+
+Low-fat string cheese
+Total Calories: ~1670 kcal"
       elif plans == 'Plan 2':
         st.write(rd.choice(exercise_overweight_teens))
       elif plans == 'Plan 3':
