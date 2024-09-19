@@ -61,37 +61,7 @@ else:
     if age >= 2011:
       if plans == 'Plan 1':
         st.write(rd.choice(exercise_overweight_teens))
-        st.write("Day 1
-Breakfast (350 kcal)
-
-Scrambled eggs (3 large eggs) with spinach and mushrooms
-Whole grain toast (1 slice)
-1 small apple
-Snack (120 kcal)
-
-Greek yogurt (unsweetened, 150g) topped with mixed berries
-Lunch (450 kcal)
-
-Grilled chicken breast (120g)
-Quinoa (½ cup cooked)
-Steamed broccoli
-Snack (100 kcal)
-
-Baby carrots with hummus (2 tbsp)
-Dinner (450 kcal)
-
-Baked salmon (120g)
-Brown rice (½ cup cooked)
-Mixed green salad with olive oil dressing
-Snack (100 kcal)
-
-Cottage cheese (100g) with cucumber slices
-Total Calories: ~1570 kcal
-
-Day 2
-Breakfast (370 kcal)
-
-Oatmeal (½ cup cooked) with almond butter (1 tbsp)
+        st.write("Day 1\nBreakfast (350 kcal)\nScrambled eggs (3 large eggs) with spinach and mushrooms\nWhole grain toast (1 slice)\n1 small apple\nSnack (120 kcal)\nGreek yogurt (unsweetened, 150g) topped with mixed berries\nLunch (450 kcal)\nGrilled chicken breast (120g)\nQuinoa (½ cup cooked)\nSteamed broccoli\nSnack (100 kcal)\nBaby carrots with hummus (2 tbsp)\nDinner (450 kcal)\nBaked salmon (120g)\nBrown rice (½ cup cooked)\nMixed green salad with olive oil dressing\nSnack (100 kcal)\nCottage cheese (100g) with cucumber slices\nTotal Calories: ~1570 kcal\nDay 2\nBreakfast (370 kcal)\nOatmeal (½ cup cooked) with almond butter (1 tbsp)\n
 2 boiled eggs
 Snack (150 kcal)
 
@@ -234,7 +204,7 @@ Sweet potato (1 small, baked)
 Snack (100 kcal)
 
 Low-fat string cheese
-Total Calories: ~1670 kcal"
+Total Calories: ~1670 kcal")
       elif plans == 'Plan 2':
         st.write(rd.choice(exercise_overweight_teens))
       elif plans == 'Plan 3':
