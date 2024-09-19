@@ -54,7 +54,6 @@ else:
         st.write(rd.choice(exercise_obese_teens))
       else:
         st.write("Ok,I seee that you do not want to exercise")  
-      
   elif bmi >= 25.0:
     st.write("You are overweight")
     plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
@@ -88,7 +87,6 @@ else:
         st.write(rd.choice(exercise_overweight_adult))
       else:
         st.write("Ok,I seee that you do not want to exercise")
-      
   elif bmi >=18.5:
     st.write("You are normal")
     if age >= 2011:
@@ -123,12 +121,33 @@ else:
         st.write("Ok,I seee that you do not want to exercise")
   else:
     st.write("You are underweight")
-    plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
-    if plans == 'Plan 1':
-      st.write("start eating more man" )
-    elif plans == 'Plan 2':
-      st.write(rd.choice("Start eating more man")
-    elif plans == 'Plan 3':
-      st.write(rd.choice("Start eating more man")
-    else:
-      st.write("Ok,I seee that you do not want to exercise")
+    if age >= 2011:
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 2':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 3':
+        st.write("You should start eating more man")
+      else:
+        st.write("Ok,I seee that you do not want to exercise)
+    elif age >= 2004:      
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 2':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 3':
+        st.write("You should start eating more man")
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
+    else:      
+      plans = st.selectbox("Select an exercise plan to view",("Plan 1","Plan 2","Plan 3"))
+      if plans == 'Plan 1':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 2':
+        st.write("You should start eating more man")
+      elif plans == 'Plan 3':
+        st.write("You should start eating more man")
+      else:
+        st.write("Ok,I seee that you do not want to exercise")
