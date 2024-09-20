@@ -1,6 +1,13 @@
 import streamlit as st
 import random as rd
-exercise_obese_teens = ['walk for 25 mins','cycle for 25 mins','swim for 25 mins','Squats (3 sets of 10-12)','Wall Push-ups (3 sets of 10-12)','Lunges (3 sets of 10 each leg)','Planks (Hold for 15-30 seconds, 3 times)']
+exercise_obese_teens = ['Goal: Improve cardiovascular health and flexibility.
+Duration: 30 minutes/day, 5 days/week
+Week Layout:
+Day 1-5:
+Warm-up: 5 minutes of brisk walking.
+Main Exercise: 20 minutes of moderate walking.
+Cool-down: 5 minutes of full-body stretching.
+Day 6-7: Rest or light stretching.']
 exercise_overweight_teens = ['walk for 25 mins','run for 2 mins then walk for 3 mins','cycle for 25 mins','swim for 25 mins','Squats: 3 sets of 10-15 reps.','Push-Ups (modified if necessary): 3 sets of 8-12 reps','Lunges: 3 sets of 10-12 reps on each leg','Plank: Hold for 30 seconds']
 exercise_normal_teens = ['Squats (12 reps) x 3','Push-ups (10 reps) x 3','Lunges (10 reps per leg) x 3','Plank (30 seconds) x 3','Bicycle crunches (15 reps per side) x 3','Jump squats (10 reps) x 3','Russian twists (3 sets of 15 reps per side)','Leg raises (3 sets of 12 reps)','Mountain climbers (3 sets of 30 seconds)','Side plank (hold for 30 seconds per side, 3 sets)']
 exercise_obese_adult = ['easy cycling for 20 mins','yoga for 20 mins','10-12 chair squats x 2','12 seated leg lifts x 2','12 seated arm curls using water bottle x 2','20 mins of brisk walking at a moderate pace','25 mins walk on a slight slope/hill','20 mins slow walk','30 mins brisk walk','30 mins yoga','cycle for 30 mins']
