@@ -1,21 +1,7 @@
 import streamlit as st
 import random as rd
 exercise_obese_teens = ['Goal: Improve cardiovascular health and flexibility.Duration: 30 minutes/day, 5 days/week.Week Layout: Day 1-5:Warm-up: 5 minutes of brisk walking.Main Exercise: 20 minutes of moderate walking.Cool-down: 5 minutes of full-body stretching.Day 6-7: Rest or light stretching.','Goal: Increase heart rate without putting too much strain on joints.Duration: 30-40 minutes/day, 4 days/week.Week Layout: Day 1 & 3: Warm-up: 5 minutes of marching in place.Main Exercise: 20 minutes of low-impact aerobics (step-touch, side-steps, light dance moves).Cool-down: 5 minutes of stretching.Day 2 & 4:20 minutes of gentle swimming or water walking (if available).Day 5-7: Rest or light stretching.','Goal: Build strength using bodyweight exercises.Duration: 20-30 minutes/day, 3 days/weekWeek Layout: Day 1, 3, 5: Warm-up: 5 minutes of walking. Circuit (3 rounds with 1-minute rest between rounds):10 squats,10 wall push-ups,10-second plank,10 glute bridges.Cool-down: 5 minutes of stretching. Day 2, 4, 6-7: Rest or light walking.','Goal: Make exercise fun with dance routines. Duration: 20-30 minutes/day, 5 days/week. Week Layout: Day 1-5: Warm-up: 5 minutes of light dancing. Main Exercise: 20 minutes of following a simple dance workout (YouTube, or a dance-based app). Cool-down: 5 minutes of stretching. Day 6-7: Rest or casual dance for fun.']
-exercise_overweight_teens = ['Exercise Plan
-  Day 1: 30-minute brisk walk + 15-minute bodyweight exercises (squats, lunges, push-ups)
-  Day 2: 20-minute light jogging + 10-minute stretching (hamstrings, quads, calves)
-  Day 3: Rest day or gentle yoga (20 minutes)
-  Day 4: 30-minute cycling or swimming + 10-minute core workout (plank, crunches)
-  Day 5: 20-minute interval running (30 sec sprint/1 min walk) + 15-minute strength workout (planks, burpees)
-  Day 6: Fun outdoor activity (soccer, basketball, or dance) for 45 minutes
-  Day 7: Rest or 15-minute yoga/stretching
-  Eating Plan
-  Breakfast: Greek yogurt with mixed berries and a handful of oats
-  Lunch: Grilled chicken wrap with whole grain tortillas, veggies, and a light dressing
-  Snack: Apple slices with almond butter
-  Dinner: Baked salmon with quinoa and steamed vegetables
-  Hydration: Drink 6-8 cups of water a day
-  Limit: Sugary drinks and processed snacks']
+exercise_overweight_teens = ['Exercise Plan: Day 1: 30-minute brisk walk + 15-minute bodyweight exercises (squats, lunges, push-ups). Day 2: 20-minute light jogging + 10-minute stretching (hamstrings, quads, calves). Day 3: Rest day or gentle yoga (20 minutes). Day 4: 30-minute cycling or swimming + 10-minute core workout (plank, crunches). Day 5: 20-minute interval running (30 sec sprint/1 min walk) + 15-minute strength workout (planks, burpees). Day 6: Fun outdoor activity (soccer, basketball, or dance) for 45 minutes.Day 7: Rest or 15-minute yoga/stretching. Eating Plan: Breakfast: Greek yogurt with mixed berries and a handful of oats. Lunch: Grilled chicken wrap with whole grain tortillas, veggies, and a light dressing. Snack: Apple slices with almond butter. Dinner: Baked salmon with quinoa and steamed vegetables. Hydration: Drink 6-8 cups of water a day. Limit: Sugary drinks and processed snacks']
 exercise_normal_teens = ['Squats (12 reps) x 3','Push-ups (10 reps) x 3','Lunges (10 reps per leg) x 3','Plank (30 seconds) x 3','Bicycle crunches (15 reps per side) x 3','Jump squats (10 reps) x 3','Russian twists (3 sets of 15 reps per side)','Leg raises (3 sets of 12 reps)','Mountain climbers (3 sets of 30 seconds)','Side plank (hold for 30 seconds per side, 3 sets)']
 exercise_obese_adult = ['easy cycling for 20 mins','yoga for 20 mins','10-12 chair squats x 2','12 seated leg lifts x 2','12 seated arm curls using water bottle x 2','20 mins of brisk walking at a moderate pace','25 mins walk on a slight slope/hill','20 mins slow walk','30 mins brisk walk','30 mins yoga','cycle for 30 mins']
 exercise_overweight_adult = ['walk for 25 mins','cycle for 25 mins','Bodyweight squats (10-12 reps) x 3','Modified push-ups (on knees or against a wall, 10 reps) x 3','Glute bridges (10-12 reps) x 3','Plank (hold for 15-30 seconds, depending on ability) x 3']
